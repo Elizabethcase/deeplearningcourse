@@ -1,0 +1,19 @@
+Notes from April 30, 2017
+Lesson 3 - Fast.AI Deep Learning
+
+Questions covered
+[] Is the output from the last layer in the convolution chunk the flattened layer?
+[x] How to source aws-alias.sh?
+	in ~/.bashrc or anywhere, ~/../.aws_alias.sh
+[] When can you use pre-calculated weights and when can't you? [thinking esp. of batch norm]
+[] When do you need to one-hot encode?
+[] How can train_loss < valid_loss AND train_acc worse than valid_acc?
+
+Ammendments for next time:
+1. time limit on questions, then post on forum
+
+Next meeting: 5/8 at time?
+
+[] implement all of lesson 3 with wetdry dataset
+[] liz - work on faster rcnn
+[] ..
