@@ -1,0 +1,37 @@
+<annotation>
+	<folder>n02802426</folder>
+	<filename>n02802426_8948</filename>
+	<source>
+		<database>ImageNet database</database>
+	</source>
+	<size>
+		<width>357</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>n02802426</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>301</xmin>
+			<ymin>101</ymin>
+			<xmax>319</xmax>
+			<ymax>122</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>n02802426</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>47</xmin>
+			<ymin>65</ymin>
+			<xmax>97</xmax>
+			<ymax>116</ymax>
+		</bndbox>
+	</object>
+</annotation>
