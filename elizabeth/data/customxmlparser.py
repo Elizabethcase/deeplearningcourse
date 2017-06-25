@@ -7,9 +7,9 @@ from xml.etree import ElementTree
 
 class XML_preprocessor(object):
 
-    def __init__(self, data_path, CLASS_NUM): #added CLASSNUM
+    def __init__(self, data_path, classes): #added CLASSNUM
         self.path_prefix = data_path
-        self.num_classes = CLASS_NUM #changed from 20
+        self.num_classes = len(classes) #changed from 20
         self.data = dict()
         self._preprocess_XML()
 
@@ -42,7 +42,9 @@ class XML_preprocessor(object):
                 self.data[image_name] = image_data
 
     def _to_one_hot(self,name):
-        one_hot_vector = [0] * self.num_classes
+        one_hot_vector = [0] * len(classes)
+	for i in len(classes):
+	    one_hot_vector[i] = 1
         if name == 'aeroplane':
             one_hot_vector[0] = 1
         elif name == 'bicycle':
