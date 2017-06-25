@@ -8,12 +8,13 @@ from xml.etree import ElementTree
 CLASSES = ["container","water","bird bath", "tire", "wheelbarrow", "bucket", "gutter","vegetation"]
 
 class XML_preprocessor(object):
-        
+
     def __init__(self, data_path): #changed to input list of classes
         self.path_prefix = data_path
         self.num_classes = len(CLASSES)
         self.data = dict()
         self._preprocess_XML()
+        self.classes = CLASSES
 
     def _preprocess_XML(self):
         filenames = os.listdir(self.path_prefix)
@@ -48,13 +49,10 @@ class XML_preprocessor(object):
         if name in CLASSES:
             i = CLASSES.index(name)
             one_hot_vector[i] = 1
-            print(one_hot_vector)
         else:
             print(name)
         return one_hot_vector
     
-    #def _print_classes(self):
-    #    return CLASSES
 
 ## example on how to use it
 # import pickle
