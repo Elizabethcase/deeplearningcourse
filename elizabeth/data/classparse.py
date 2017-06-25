@@ -5,7 +5,7 @@ import numpy as np
 import os
 from xml.etree import ElementTree
 
-CLASSES = ["n02802426", "container","water","bird bath", "tire", "wheelbarrow", "bucket", "gutter","vegetation"]
+CLASSES = ["container","water","bird bath", "tire", "wheelbarrow", "bucket", "gutter","vegetation"]
 
 class XML_preprocessor(object):
 
