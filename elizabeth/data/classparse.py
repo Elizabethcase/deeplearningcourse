@@ -26,9 +26,13 @@ class XML_preprocessor(object):
                 one_hot_classes = []
                 size_tree = root.find('size')
                 width = float(size_tree.find('width').text)
+                print("width =",width)
                 height = float(size_tree.find('height').text)
-		if width or height == 0:
-		    print("Res error for file", filename)
+                print("height =",height)
+                #if width == 0:
+                    #print("Res error for file", filename)
+                #if height == 0:
+                    #print("Res error for file", filename)
                 for object_tree in root.findall('object'):
                     for bounding_box in object_tree.iter('bndbox'):
                         xmin = float(bounding_box.find('xmin').text)/width
