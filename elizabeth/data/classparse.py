@@ -5,7 +5,7 @@ import numpy as np
 import os
 from xml.etree import ElementTree
 
-CLASSES = ["container","water","bird bath", "tire", "wheelbarrow", "bucket", "gutter","vegetation"]
+CLASSES = ["n02802426", "container","water","bird bath", "tire", "wheelbarrow", "bucket", "gutter","vegetation"]
 
 class XML_preprocessor(object):
 
@@ -27,6 +27,8 @@ class XML_preprocessor(object):
                 size_tree = root.find('size')
                 width = float(size_tree.find('width').text)
                 height = float(size_tree.find('height').text)
+		if width or height == 0:
+		    print("Res error for file", filename)
                 for object_tree in root.findall('object'):
                     for bounding_box in object_tree.iter('bndbox'):
                         xmin = float(bounding_box.find('xmin').text)/width
