@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>Time Lapse 2</folder>
+  <filename>G0024024_19</filename>
+  <path>/Users/elizabeth/Pictures/GoPro/2017-07-20/Harrison/Time Lapse 2/G0024024_19.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>464</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>car</name>
+    <pose>Unspecified</pose>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>237</xmin>
+      <ymin>291</ymin>
+      <xmax>433</xmax>
+      <ymax>464</ymax>
+    </bndbox>
+  </object>
+</annotation>
