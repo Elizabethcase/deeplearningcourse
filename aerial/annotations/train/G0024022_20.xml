@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>Time Lapse 2</folder>
+  <filename>G0024022_20</filename>
+  <path>/Users/elizabeth/Pictures/GoPro/2017-07-20/Harrison/Time Lapse 2/G0024022_20.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>464</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>driveway</name>
+    <pose>Unspecified</pose>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>24</xmin>
+      <ymin>1</ymin>
+      <xmax>440</xmax>
+      <ymax>270</ymax>
+    </bndbox>
+  </object>
+</annotation>

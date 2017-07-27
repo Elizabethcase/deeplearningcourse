@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>Time Lapse 2</folder>
+  <filename>G0024021_14</filename>
+  <path>/Users/elizabeth/Pictures/GoPro/2017-07-20/Harrison/Time Lapse 2/G0024021_14.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>512</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>front yard</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>35</xmin>
+      <ymin>183</ymin>
+      <xmax>443</xmax>
+      <ymax>511</ymax>
+    </bndbox>
+  </object>
+</annotation>
