@@ -5,7 +5,9 @@ import numpy as np
 import os
 from xml.etree import ElementTree
 
-CLASSES = ["n03991062", "n02802426","pot","trash", "container","water","bird bath", "tire", "wheelbarrow", "bucket", "gutter","vegetation","tree","building","sky"]
+#CLASSES = ["n03991062", "n02802426", "container","water","bird bath", "tire", "wheelbarrow", "bucket", "gutter","vegetation","tree","building","sky""]
+
+CLASSES = ["table","tire","fence","air conditioner","flower pot","porch","house","kayak","front yard","toy","bench","flower bed","driveway","yard","street","pool","chair","tarp","bird bath","container","back yard","gutter","trash bin","fire pit","air conditioner","umbrella","treehouse","basketball","tent","hose","drain","barbecue","awning","fountain","bucket","ladder","toy"]
 
 class XML_preprocessor(object):
 
