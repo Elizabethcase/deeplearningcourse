@@ -7,12 +7,7 @@ from xml.etree import ElementTree
 
 #CLASSES = ["n03991062", "n02802426", "container","water","bird bath", "tire", "wheelbarrow", "bucket", "gutter","vegetation","tree","building","sky""]
 
-CLASSES = ["background","pot","cluter","car","trash","wo
-
-
-
-
-odpile","air conditioning","table","tire","fence","air conditioner","flower pot","porch","house","kayak","front yard","toy","bench","flower bed","driveway","yard","street","pool","chair","tarp","bird bath","container","back yard","gutter","trash bin","fire pit","air conditioner","umbrella","treehouse","basketball","tent","hose","drain","barbecue","awning","fountain","bucket","ladder","toy"]
+CLASSES = ["background","pot","cluter","car","trash","woodpile","air conditioning","table","tire","fence","air conditioner","flower pot","porch","house","kayak","front yard","toy","bench","flower bed","driveway","yard","street","pool","chair","tarp","bird bath","container","back yard","gutter","trash bin","fire pit","air conditioner","umbrella","treehouse","basketball","tent","hose","drain","barbecue","awning","fountain","bucket","ladder","toy"]
 
 class XML_preprocessor(object):
 
@@ -49,6 +44,8 @@ class XML_preprocessor(object):
                     bounding_box = [xmin,ymin,xmax,ymax]
                     bounding_boxes.append(bounding_box)
                     class_name = object_tree.find('name').text
+                    if class_name=='garbage bin':
+                        class_name='trash bin'
                     one_hot_class = self._to_one_hot(class_name)
                     one_hot_classes.append(one_hot_class)
                 image_name = root.find('filename').text
