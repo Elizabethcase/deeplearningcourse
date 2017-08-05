@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Time Lapse 3</folder>
+	<filename>G0036437_14.JPG</filename>
+	<path>/Users/yue/Downloads/Time Lapse 3/G0036437_14.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pool</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>259</xmax>
+			<ymax>57</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>flower pot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>292</xmin>
+			<ymin>74</ymin>
+			<xmax>345</xmax>
+			<ymax>121</ymax>
+		</bndbox>
+	</object>
+</annotation>

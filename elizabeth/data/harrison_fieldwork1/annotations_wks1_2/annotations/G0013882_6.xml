@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>Time Lapse 1</folder>
+  <filename>G0013882_6</filename>
+  <path>/Users/elizabeth/Pictures/GoPro/2017-07-20/Harrison/Time Lapse 1/G0013882_6.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>512</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>pot</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>329</xmin>
+      <ymin>135</ymin>
+      <xmax>401</xmax>
+      <ymax>203</ymax>
+    </bndbox>
+  </object>
+</annotation>
