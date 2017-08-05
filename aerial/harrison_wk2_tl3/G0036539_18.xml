@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Time Lapse 3</folder>
+	<filename>G0036539_18.JPG</filename>
+	<path>/Users/yue/Downloads/Time Lapse 3/G0036539_18.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>464</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>65</xmin>
+			<ymin>46</ymin>
+			<xmax>105</xmax>
+			<ymax>77</ymax>
+		</bndbox>
+	</object>
+</annotation>
