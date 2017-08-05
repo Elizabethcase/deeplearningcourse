@@ -1,26 +1,26 @@
 <annotation>
 	<folder>Time Lapse 3</folder>
-	<filename>G0036494_3.JPG</filename>
-	<path>/Users/yue/Downloads/Time Lapse 3/G0036494_3.JPG</path>
+	<filename>G0036541_21</filename>
+	<path>/Users/yue/Downloads/Time Lapse 3/G0036541_21</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
 		<width>512</width>
-		<height>512</height>
+		<height>464</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>hose</name>
+		<name>container</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>242</xmin>
-			<ymin>189</ymin>
-			<xmax>294</xmax>
-			<ymax>245</ymax>
+			<xmin>375</xmin>
+			<ymin>168</ymin>
+			<xmax>401</xmax>
+			<ymax>197</ymax>
 		</bndbox>
 	</object>
 </annotation>
