@@ -1,26 +1,26 @@
-<annotation>
-	<folder>Time Lapse 3</folder>
-	<filename>G0036458_17</filename>
-	<path>/Users/yue/Downloads/Time Lapse 3/G0036458_17</path>
-	<source>
-		<database>Unknown</database>
-	</source>
-	<size>
-		<width>440</width>
-		<height>512</height>
-		<depth>3</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>container</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>304</xmin>
-			<ymin>225</ymin>
-			<xmax>347</xmax>
-			<ymax>254</ymax>
-		</bndbox>
-	</object>
+<annotation verified="no">
+  <folder>images</folder>
+  <filename>G0036458_17</filename>
+  <path>/Users/elizabeth/Box Sync/deeplearningcourse/aerial/harrison_wk2_tl3/images/G0036458_17.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>440</width>
+    <height>512</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>container</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>301</xmin>
+      <ymin>220</ymin>
+      <xmax>344</xmax>
+      <ymax>249</ymax>
+    </bndbox>
+  </object>
 </annotation>

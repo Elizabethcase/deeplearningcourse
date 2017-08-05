@@ -1,50 +1,38 @@
-<annotation>
-	<folder>Time Lapse 3</folder>
-	<filename>G0036453_15.JPG</filename>
-	<path>/Users/yue/Downloads/Time Lapse 3/G0036453_15.JPG</path>
-	<source>
-		<database>Unknown</database>
-	</source>
-	<size>
-		<width>512</width>
-		<height>512</height>
-		<depth>3</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>container</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>148</xmin>
-			<ymin>189</ymin>
-			<xmax>171</xmax>
-			<ymax>212</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>container</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>417</xmin>
-			<ymin>160</ymin>
-			<xmax>438</xmax>
-			<ymax>180</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>flower pot</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>142</xmin>
-			<ymin>134</ymin>
-			<xmax>168</xmax>
-			<ymax>163</ymax>
-		</bndbox>
-	</object>
+<annotation verified="no">
+  <folder>images</folder>
+  <filename>G0036453_15</filename>
+  <path>/Users/elizabeth/Box Sync/deeplearningcourse/aerial/harrison_wk2_tl3/images/G0036453_15.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>512</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>flower pot</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>142</xmin>
+      <ymin>134</ymin>
+      <xmax>168</xmax>
+      <ymax>163</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>pot</name>
+    <pose>Unspecified</pose>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1</xmin>
+      <ymin>154</ymin>
+      <xmax>26</xmax>
+      <ymax>181</ymax>
+    </bndbox>
+  </object>
 </annotation>

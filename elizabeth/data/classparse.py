@@ -46,6 +46,8 @@ class XML_preprocessor(object):
                     class_name = object_tree.find('name').text
                     if class_name=='garbage bin':
                         class_name='trash bin'
+                    elif class_name=='flower pot':
+                        class_name=='pot'
                     one_hot_class = self._to_one_hot(class_name)
                     one_hot_classes.append(one_hot_class)
                 image_name = root.find('filename').text

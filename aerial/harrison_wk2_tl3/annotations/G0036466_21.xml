@@ -1,26 +1,14 @@
-<annotation>
-	<folder>Time Lapse 3</folder>
-	<filename>G0036466_21.JPG</filename>
-	<path>/Users/yue/Downloads/Time Lapse 3/G0036466_21.JPG</path>
-	<source>
-		<database>Unknown</database>
-	</source>
-	<size>
-		<width>512</width>
-		<height>464</height>
-		<depth>3</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>toy</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>132</xmin>
-			<ymin>420</ymin>
-			<xmax>195</xmax>
-			<ymax>464</ymax>
-		</bndbox>
-	</object>
+<annotation verified="no">
+  <folder>images</folder>
+  <filename>G0036466_21</filename>
+  <path>/Users/elizabeth/Box Sync/deeplearningcourse/aerial/harrison_wk2_tl3/images/G0036466_21.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>464</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
 </annotation>
