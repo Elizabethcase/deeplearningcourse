@@ -1,0 +1,38 @@
+<annotation verified="no">
+  <folder>images</folder>
+  <filename>G0036467_14</filename>
+  <path>/Users/elizabeth/Box Sync/deeplearningcourse/aerial/harrison_wk2_tl3/images/G0036467_14.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>512</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>container</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>383</xmin>
+      <ymin>287</ymin>
+      <xmax>398</xmax>
+      <ymax>304</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>flower pot</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>398</xmin>
+      <ymin>308</ymin>
+      <xmax>445</xmax>
+      <ymax>348</ymax>
+    </bndbox>
+  </object>
+</annotation>

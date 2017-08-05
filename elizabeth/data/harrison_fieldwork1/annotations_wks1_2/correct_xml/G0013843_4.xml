@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>Time Lapse 1</folder>
+  <filename>G0013843_4</filename>
+  <path>/Users/elizabeth/Pictures/GoPro/2017-07-20/Harrison/Time Lapse 1/G0013843_4.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>512</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>barbecue</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>110</xmin>
+      <ymin>354</ymin>
+      <xmax>208</xmax>
+      <ymax>411</ymax>
+    </bndbox>
+  </object>
+</annotation>

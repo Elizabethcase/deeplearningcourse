@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>images</folder>
+  <filename>G0036461_10</filename>
+  <path>/Users/elizabeth/Box Sync/deeplearningcourse/aerial/harrison_wk2_tl3/images/G0036461_10.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>512</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>toy</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>195</xmin>
+      <ymin>199</ymin>
+      <xmax>294</xmax>
+      <ymax>257</ymax>
+    </bndbox>
+  </object>
+</annotation>

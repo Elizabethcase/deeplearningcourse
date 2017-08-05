@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>images</folder>
+  <filename>G0036539_18</filename>
+  <path>/Users/elizabeth/Box Sync/deeplearningcourse/aerial/harrison_wk2_tl3/images/G0036539_18.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>464</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>container</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>59</xmin>
+      <ymin>41</ymin>
+      <xmax>99</xmax>
+      <ymax>72</ymax>
+    </bndbox>
+  </object>
+</annotation>
