@@ -28,9 +28,9 @@ class XML_preprocessor(object):
                 one_hot_classes = []
                 size_tree = root.find('size')
                 width = float(size_tree.find('width').text)
-                print("width =",width)
+                #print("width =",width)
                 height = float(size_tree.find('height').text)
-                print("height =",height)
+                #print("height =",height)
                 #if width == 0:
                     #print("Res error for file", filename)
                 #if height == 0:
