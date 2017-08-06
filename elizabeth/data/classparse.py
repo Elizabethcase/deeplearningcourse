@@ -9,7 +9,7 @@ from xml.etree import ElementTree
 
 #CLASSES = ["background","pot","clutter","car","trash","woodpile","air conditioning","table","tire","fence","flower pot","porch","house","kayak","front yard","toy","bench","flower bed","driveway","yard","street","pool","chair","tarp","bird bath","container","back yard","gutter","trash bin","fire pit","air conditioner","umbrella","treehouse","basketball","tent","hose","drain","barbecue","awning","fountain","bucket","ladder","toy"]
 
-#CLASSES = ["background","pot","clutter","car","trash","table","tire","flower pot","porch","kayak","toy","pool","chair","tarp","bird bath","container","gutter","trash bin","air conditioner","umbrella","basketball","tent","hose","drain","awning","bucket","ladder"]
+CLASSES = ["background","pot","clutter","car","trash","table","tire","flower pot","porch","kayak","toy","pool","chair","tarp","bird bath","container","gutter","trash bin","air conditioner","umbrella","basketball","tent","hose","drain","awning","bucket","ladder"]
 
 
 class XML_preprocessor(object):
