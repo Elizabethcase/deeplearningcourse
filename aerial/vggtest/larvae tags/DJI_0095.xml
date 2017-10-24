@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>larvae</folder>
+  <filename>DJI_0095</filename>
+  <path>/Users/elizabeth/Box Sync/deeplearningcourse/aerial/vggtest/larvae/DJI_0095.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>4000</width>
+    <height>3000</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>larvae</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>2094</xmin>
+      <ymin>2502</ymin>
+      <xmax>2171</xmax>
+      <ymax>2588</ymax>
+    </bndbox>
+  </object>
+</annotation>

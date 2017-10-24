@@ -1,0 +1,74 @@
+<annotation verified="no">
+  <folder>larvae</folder>
+  <filename>DJI_0290</filename>
+  <path>/Users/elizabeth/Box Sync/deeplearningcourse/aerial/vggtest/larvae/DJI_0290.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>4000</width>
+    <height>3000</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>tarp</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1427</xmin>
+      <ymin>870</ymin>
+      <xmax>1721</xmax>
+      <ymax>1131</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>flower pot</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>2236</xmin>
+      <ymin>1037</ymin>
+      <xmax>2274</xmax>
+      <ymax>1071</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>flower pot</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1973</xmin>
+      <ymin>1023</ymin>
+      <xmax>2014</xmax>
+      <ymax>1055</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>flower pot</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>2093</xmin>
+      <ymin>1007</ymin>
+      <xmax>2145</xmax>
+      <ymax>1052</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>standing water</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>2268</xmin>
+      <ymin>1067</ymin>
+      <xmax>2354</xmax>
+      <ymax>1141</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,38 @@
+<annotation verified="no">
+  <folder>larvae</folder>
+  <filename>DJI_0320</filename>
+  <path>/Users/elizabeth/Box Sync/deeplearningcourse/aerial/vggtest/larvae/DJI_0320.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>4000</width>
+    <height>3000</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>flower pot - no base</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1244</xmin>
+      <ymin>2100</ymin>
+      <xmax>1297</xmax>
+      <ymax>2161</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>porch</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1006</xmin>
+      <ymin>1873</ymin>
+      <xmax>1318</xmax>
+      <ymax>2193</ymax>
+    </bndbox>
+  </object>
+</annotation>

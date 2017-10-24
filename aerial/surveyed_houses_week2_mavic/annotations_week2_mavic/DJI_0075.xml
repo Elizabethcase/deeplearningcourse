@@ -1,0 +1,26 @@
+<annotation>
+	<folder>surveyed_houses_week2_mavic</folder>
+	<filename>DJI_0075.jpg</filename>
+	<path>/Volumes/WD Elements Case/Fieldwork_week2_Mavic_GoPro/101MEDIA/surveyed_houses_week2_mavic/DJI_0075.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>3000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>watering can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1705</xmin>
+			<ymin>1527</ymin>
+			<xmax>1727</xmax>
+			<ymax>1546</ymax>
+		</bndbox>
+	</object>
+</annotation>

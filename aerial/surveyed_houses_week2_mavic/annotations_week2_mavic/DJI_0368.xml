@@ -1,0 +1,38 @@
+<annotation>
+	<folder>surveyed_houses_week2_mavic</folder>
+	<filename>DJI_0368.jpg</filename>
+	<path>/Volumes/WD Elements Case/Fieldwork_week2_Mavic_GoPro/101MEDIA/surveyed_houses_week2_mavic/DJI_0368.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>3000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>porch</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3121</xmin>
+			<ymin>1431</ymin>
+			<xmax>3757</xmax>
+			<ymax>1868</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>flower pot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3525</xmin>
+			<ymin>1559</ymin>
+			<xmax>3569</xmax>
+			<ymax>1598</ymax>
+		</bndbox>
+	</object>
+</annotation>

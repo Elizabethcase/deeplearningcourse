@@ -1,0 +1,62 @@
+<annotation verified="no">
+  <folder>larvae</folder>
+  <filename>G0036461</filename>
+  <path>/Users/elizabeth/Box Sync/deeplearningcourse/aerial/vggtest/larvae/G0036461.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>3000</width>
+    <height>2000</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>property - larvae</name>
+    <pose>Unspecified</pose>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>723</xmin>
+      <ymin>205</ymin>
+      <xmax>3000</xmax>
+      <ymax>1708</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>basketball</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1227</xmin>
+      <ymin>1283</ymin>
+      <xmax>1385</xmax>
+      <ymax>1393</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>flower pot - no base</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1127</xmin>
+      <ymin>1392</ymin>
+      <xmax>1182</xmax>
+      <ymax>1444</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>flower pot - no base</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1175</xmin>
+      <ymin>1321</ymin>
+      <xmax>1215</xmax>
+      <ymax>1367</ymax>
+    </bndbox>
+  </object>
+</annotation>
