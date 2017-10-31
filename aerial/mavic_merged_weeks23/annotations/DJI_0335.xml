@@ -1,0 +1,50 @@
+<annotation>
+	<folder>surveyed_houses_week2_mavic</folder>
+	<filename>DJI_0335.jpg</filename>
+	<path>/Volumes/WD Elements Case/Fieldwork_week2_Mavic_GoPro/101MEDIA/surveyed_houses_week2_mavic/DJI_0335.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>3000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ladder</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>646</xmin>
+			<ymin>259</ymin>
+			<xmax>965</xmax>
+			<ymax>341</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>porch</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>761</xmin>
+			<ymin>388</ymin>
+			<xmax>1018</xmax>
+			<ymax>942</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bird bath</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2105</xmin>
+			<ymin>817</ymin>
+			<xmax>2164</xmax>
+			<ymax>866</ymax>
+		</bndbox>
+	</object>
+</annotation>

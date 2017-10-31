@@ -1,0 +1,38 @@
+<annotation>
+	<folder>surveyed_houses_week3_mavic</folder>
+	<filename>DJI_0427.jpg</filename>
+	<path>/Volumes/WD Elements Case/Fieldwork_week2_Mavic_GoPro/101MEDIA/surveyed_houses_week3_mavic/DJI_0427.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>3000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bird bath</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3663</xmin>
+			<ymin>2384</ymin>
+			<xmax>3742</xmax>
+			<ymax>2468</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cover</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3573</xmin>
+			<ymin>1243</ymin>
+			<xmax>3959</xmax>
+			<ymax>1597</ymax>
+		</bndbox>
+	</object>
+</annotation>

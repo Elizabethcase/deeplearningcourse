@@ -1,0 +1,38 @@
+<annotation>
+	<folder>surveyed_houses_week2_mavic</folder>
+	<filename>DJI_0096.jpg</filename>
+	<path>/Volumes/WD Elements Case/Fieldwork_week2_Mavic_GoPro/101MEDIA/surveyed_houses_week2_mavic/DJI_0096.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>3000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>manhole</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>885</xmin>
+			<ymin>1371</ymin>
+			<xmax>949</xmax>
+			<ymax>1442</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>albo_larvae</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>883</xmin>
+			<ymin>1369</ymin>
+			<xmax>947</xmax>
+			<ymax>1440</ymax>
+		</bndbox>
+	</object>
+</annotation>

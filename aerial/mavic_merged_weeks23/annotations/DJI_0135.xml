@@ -1,0 +1,98 @@
+<annotation>
+	<folder>surveyed_houses_week3_mavic</folder>
+	<filename>DJI_0135.jpg</filename>
+	<path>/Volumes/WD Elements Case/Fieldwork_week2_Mavic_GoPro/101MEDIA/surveyed_houses_week3_mavic/DJI_0135.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>3000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>basketball</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1275</xmin>
+			<ymin>2105</ymin>
+			<xmax>1412</xmax>
+			<ymax>2209</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>trash bin</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1298</xmin>
+			<ymin>2024</ymin>
+			<xmax>1350</xmax>
+			<ymax>2073</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>trash bin</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1341</xmin>
+			<ymin>2008</ymin>
+			<xmax>1386</xmax>
+			<ymax>2050</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>trash bin</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1395</xmin>
+			<ymin>2002</ymin>
+			<xmax>1443</xmax>
+			<ymax>2034</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>trash bin</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1430</xmin>
+			<ymin>1986</ymin>
+			<xmax>1469</xmax>
+			<ymax>2024</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>watering can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>727</xmin>
+			<ymin>1938</ymin>
+			<xmax>765</xmax>
+			<ymax>1974</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>no albo property</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5</xmin>
+			<ymin>800</ymin>
+			<xmax>2957</xmax>
+			<ymax>2758</ymax>
+		</bndbox>
+	</object>
+</annotation>

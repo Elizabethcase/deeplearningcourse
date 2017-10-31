@@ -1,0 +1,38 @@
+<annotation>
+	<folder>surveyed_houses_week3_mavic</folder>
+	<filename>DJI_0247.jpg</filename>
+	<path>/Volumes/WD Elements Case/Fieldwork_week2_Mavic_GoPro/101MEDIA/surveyed_houses_week3_mavic/DJI_0247.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>3000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gutter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1541</xmin>
+			<ymin>1792</ymin>
+			<xmax>1628</xmax>
+			<ymax>1973</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>trash bin</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2433</xmin>
+			<ymin>2437</ymin>
+			<xmax>2513</xmax>
+			<ymax>2518</ymax>
+		</bndbox>
+	</object>
+</annotation>
