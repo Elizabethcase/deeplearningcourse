@@ -1,0 +1,38 @@
+<annotation verified="no">
+  <folder>images</folder>
+  <filename>G0036561_2</filename>
+  <path>/Users/elizabeth/Box Sync/deeplearningcourse/aerial/harrison_wk2_tl3/images/G0036561_2</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>512</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>porch</name>
+    <pose>Unspecified</pose>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>292</xmin>
+      <ymin>175</ymin>
+      <xmax>512</xmax>
+      <ymax>476</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>air conditioner</name>
+    <pose>Unspecified</pose>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>446</xmin>
+      <ymin>462</ymin>
+      <xmax>493</xmax>
+      <ymax>512</ymax>
+    </bndbox>
+  </object>
+</annotation>

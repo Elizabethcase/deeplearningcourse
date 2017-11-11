@@ -1,0 +1,38 @@
+<annotation verified="no">
+  <folder>Time Lapse 2</folder>
+  <filename>G0024047_13</filename>
+  <path>/Users/elizabeth/Pictures/GoPro/2017-07-20/Harrison/Time Lapse 2/G0024047_13</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>512</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>container</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>130</xmin>
+      <ymin>379</ymin>
+      <xmax>158</xmax>
+      <ymax>410</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>container</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>208</xmin>
+      <ymin>369</ymin>
+      <xmax>236</xmax>
+      <ymax>399</ymax>
+    </bndbox>
+  </object>
+</annotation>

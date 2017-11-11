@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>Time Lapse 1</folder>
+  <filename>G0013868_12</filename>
+  <path>/Users/elizabeth/Pictures/GoPro/2017-07-20/Harrison/Time Lapse 1/G0013868_12</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>512</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>car</name>
+    <pose>Unspecified</pose>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>68</xmin>
+      <ymin>248</ymin>
+      <xmax>335</xmax>
+      <ymax>512</ymax>
+    </bndbox>
+  </object>
+</annotation>

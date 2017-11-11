@@ -1,0 +1,38 @@
+<annotation verified="no">
+  <folder>Time Lapse 1</folder>
+  <filename>G0013877_5</filename>
+  <path>/Users/elizabeth/Pictures/GoPro/2017-07-20/Harrison/Time Lapse 1/G0013877_5</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>440</width>
+    <height>512</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>trash</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>3</xmin>
+      <ymin>84</ymin>
+      <xmax>202</xmax>
+      <ymax>263</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>debris</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>2</xmin>
+      <ymin>74</ymin>
+      <xmax>222</xmax>
+      <ymax>280</ymax>
+    </bndbox>
+  </object>
+</annotation>

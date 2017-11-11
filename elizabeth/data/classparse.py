@@ -4,6 +4,7 @@
 import numpy as np
 import os
 from xml.etree import ElementTree
+import pandas as pd
 
 #CLASSES = ["n03991062", "n02802426", "container","water","bird bath", "tire", "wheelbarrow", "bucket", "gutter","vegetation","tree","building","sky""]
 
@@ -27,8 +28,6 @@ class XML_preprocessor(object):
             if filename.lower().endswith('.xml'):
                 tree = ElementTree.parse(self.path_prefix + filename)
                 root = tree.getroot()
-                bounding_boxes = []
-                one_hot_classes = []
                 size_tree = root.find('size')
                 width = float(size_tree.find('width').text)
                 #print("width =",width)
@@ -64,6 +63,46 @@ class XML_preprocessor(object):
                 one_hot_classes = np.asarray(one_hot_classes)
                 image_data = np.hstack((bounding_boxes, one_hot_classes))
                 self.data[image_name] = image_data
+                
+    def return_bbox_coords(self)
+        filenames = os.listdir(self.path_prefix)
+        keys = [f[:-4] for f in filenames]
+        bounding_boxes = pd.DataFrame(index=[keys,CLASSES],cols=['n','xmin','ymin','width','height'])
+        
+        for filename in filenames:
+            if filename.lower().endswith('.xml'):
+                tree = ElementTree.parse(self.path_prefix + filename)
+                root = tree.getroot()
+                bounding_boxes = []
+                one_hot_classes = []
+                size_tree = root.find('size')
+                width = float(size_tree.find('width').text)
+                height = float(size_tree.find('height').text)
+                n=0 #ssd breaks when training data has zero bounding boxes; this initiattes a count
+                for object_tree in root.findall('object'):
+                    for bounding_box in object_tree.iter('bndbox'):
+                        n+=1 #count
+                        xmin = float(bounding_box.find('xmin').text)
+                        ymin = float(bounding_box.find('ymin').text)
+                        xmax = float(bounding_box.find('xmax').text)
+                        ymax = float(bounding_box.find('ymax').text)
+                    class_name = object_tree.find('name').text
+                    if class_name=='garbage bin':
+                        class_name='trash bin'
+                    elif class_name=='flower pot':
+                        class_name=='pot'
+                    elif class_name=='air conditioning':
+                        class_name=='air conditioner'
+
+                    bounding_boxes.loc[(image_name,class_name),'n']=n
+                    bounding_boxes.loc[(image_name,class_name),'xmin']=xmin
+                    bounding_boxes.loc[(image_name,class_name),'ymin']=ymin
+                    bounding_boxes.loc[(image_name,class_name),'width']=width
+                    bounding_boxes.loc[(image_name,class_name),'height']=height
+                    
+        return bounding_boxes
+                
+                
 
     def _to_one_hot(self,name):
         one_hot_vector = [0] * self.num_classes

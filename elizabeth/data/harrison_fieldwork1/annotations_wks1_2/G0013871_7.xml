@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>Time Lapse 1</folder>
+  <filename>G0013871_7</filename>
+  <path>/Users/elizabeth/Pictures/GoPro/2017-07-20/Harrison/Time Lapse 1/G0013871_7</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>512</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>hose</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>243</xmin>
+      <ymin>259</ymin>
+      <xmax>320</xmax>
+      <ymax>330</ymax>
+    </bndbox>
+  </object>
+</annotation>

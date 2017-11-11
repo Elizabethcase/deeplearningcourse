@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>Time Lapse 2</folder>
+  <filename>G0024044_7</filename>
+  <path>/Users/elizabeth/Pictures/GoPro/2017-07-20/Harrison/Time Lapse 2/G0024044_7</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>512</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>tent</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>144</xmin>
+      <ymin>73</ymin>
+      <xmax>312</xmax>
+      <ymax>265</ymax>
+    </bndbox>
+  </object>
+</annotation>
