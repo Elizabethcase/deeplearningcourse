@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Mavic Week 2</folder>
+	<filename>DJI_0016_9.JPG</filename>
+	<path>/Volumes/WD Elements Case/Mavic/Fieldwork pt 2/Harrison/Mavic Week 2/DJI_0016_9.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>flower pot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>164</xmin>
+			<ymin>379</ymin>
+			<xmax>209</xmax>
+			<ymax>425</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>flower pot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>251</xmin>
+			<ymin>377</ymin>
+			<xmax>295</xmax>
+			<ymax>441</ymax>
+		</bndbox>
+	</object>
+</annotation>

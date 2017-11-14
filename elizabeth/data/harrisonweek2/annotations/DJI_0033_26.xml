@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Mavic Week 2</folder>
+	<filename>DJI_0033_26.JPG</filename>
+	<path>/Volumes/WD Elements Case/Mavic/Fieldwork pt 2/Harrison/Mavic Week 2/DJI_0033_26.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>basketball</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>57</xmin>
+			<ymin>11</ymin>
+			<xmax>369</xmax>
+			<ymax>188</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>tarp</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>117</xmin>
+			<ymin>4</ymin>
+			<xmax>235</xmax>
+			<ymax>147</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>trash bin</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>342</xmin>
+			<ymin>280</ymin>
+			<xmax>439</xmax>
+			<ymax>371</ymax>
+		</bndbox>
+	</object>
+</annotation>

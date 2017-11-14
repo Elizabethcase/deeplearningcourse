@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Mavic Week 2</folder>
+	<filename>DJI_0318_42.JPG</filename>
+	<path>/Volumes/WD Elements Case/Mavic/Fieldwork pt 2/Harrison/Mavic Week 2/DJI_0318_42.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>440</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>waterin gcan</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>466</xmin>
+			<ymin>81</ymin>
+			<xmax>501</xmax>
+			<ymax>124</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>Mapping</folder>
+  <filename>DJI_0009_8</filename>
+  <path>/Users/elizabeth/Pictures/Mavic/Fieldwork pt 2/Harrison/Mapping/DJI_0009_8.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>512</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>container</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>483</xmin>
+      <ymin>175</ymin>
+      <xmax>508</xmax>
+      <ymax>199</ymax>
+    </bndbox>
+  </object>
+</annotation>

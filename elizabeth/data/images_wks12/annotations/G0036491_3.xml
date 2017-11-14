@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Time Lapse 3</folder>
+	<filename>G0036491_3</filename>
+	<path>/Users/yue/Downloads/Time Lapse 3/G0036491_3</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hose</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>325</xmin>
+			<ymin>235</ymin>
+			<xmax>362</xmax>
+			<ymax>279</ymax>
+		</bndbox>
+	</object>
+</annotation>

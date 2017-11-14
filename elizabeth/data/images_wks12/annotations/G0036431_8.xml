@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Time Lapse 3</folder>
+	<filename>G0036431_8</filename>
+	<path>/Users/yue/Downloads/Time Lapse 3/G0036431_8</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pool</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>174</xmin>
+			<ymin>1</ymin>
+			<xmax>477</xmax>
+			<ymax>94</ymax>
+		</bndbox>
+	</object>
+</annotation>

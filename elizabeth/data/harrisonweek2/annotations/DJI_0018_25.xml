@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Mavic Week 2</folder>
+	<filename>DJI_0018_25.JPG</filename>
+	<path>/Volumes/WD Elements Case/Mavic/Fieldwork pt 2/Harrison/Mavic Week 2/DJI_0018_25.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>porch</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>326</xmin>
+			<ymin>2</ymin>
+			<xmax>510</xmax>
+			<ymax>451</ymax>
+		</bndbox>
+	</object>
+</annotation>

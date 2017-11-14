@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>Mapping</folder>
+  <filename>DJI_0009_17</filename>
+  <path>/Users/elizabeth/Pictures/Mavic/Fieldwork pt 2/Harrison/Mapping/DJI_0009_17.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>512</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>bird bath</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>314</xmin>
+      <ymin>268</ymin>
+      <xmax>425</xmax>
+      <ymax>382</ymax>
+    </bndbox>
+  </object>
+</annotation>

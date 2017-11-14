@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Time Lapse 3</folder>
+	<filename>G0036498_9</filename>
+	<path>/Users/yue/Downloads/Time Lapse 3/G0036498_9</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>flower pot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>24</xmin>
+			<ymin>429</ymin>
+			<xmax>67</xmax>
+			<ymax>461</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>flower pot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>273</xmin>
+			<ymin>464</ymin>
+			<xmax>299</xmax>
+			<ymax>487</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -10,7 +10,9 @@ import pandas as pd
 
 #CLASSES = ["background","pot","clutter","car","trash","woodpile","air conditioning","table","tire","fence","flower pot","porch","house","kayak","front yard","toy","bench","flower bed","driveway","yard","street","pool","chair","tarp","bird bath","container","back yard","gutter","trash bin","fire pit","air conditioner","umbrella","treehouse","basketball","tent","hose","drain","barbecue","awning","fountain","bucket","ladder","toy"]
 
-CLASSES = ["background","pot","clutter","car","trash","table","tire","flower pot","porch","kayak","toy","pool","chair","tarp","bird bath","container","gutter","trash bin","air conditioner","umbrella","basketball","tent","hose","drain","awning","bucket","ladder"]
+#CLASSES = ["background","pot","clutter","car","trash","table","tire","flower pot","porch","kayak","toy","pool","chair","tarp","bird bath","container","gutter","trash bin","air conditioner","umbrella","basketball","tent","hose","drain","awning","bucket","ladder"]
+
+CLASSES = ["background","pot","flower pot","car","porch","container","gutter","trash bin","toy"]
 
 
 class XML_preprocessor(object):
@@ -28,6 +30,8 @@ class XML_preprocessor(object):
             if filename.lower().endswith('.xml'):
                 tree = ElementTree.parse(self.path_prefix + filename)
                 root = tree.getroot()
+                bounding_boxes = []
+                one_hot_classes = []
                 size_tree = root.find('size')
                 width = float(size_tree.find('width').text)
                 #print("width =",width)
@@ -57,6 +61,8 @@ class XML_preprocessor(object):
                     one_hot_class = self._to_one_hot(class_name)
                     one_hot_classes.append(one_hot_class)
                 image_name = root.find('filename').text
+                if image_name[-4:] != '.JPG':
+                    image_name = image_name + '.JPG'
                 if n == 0:
                     print(image_name) # print image names with zero bounding boxes for removal
                 bounding_boxes = np.asarray(bounding_boxes)
@@ -64,10 +70,11 @@ class XML_preprocessor(object):
                 image_data = np.hstack((bounding_boxes, one_hot_classes))
                 self.data[image_name] = image_data
                 
-    def return_bbox_coords(self)
+    def return_bbox_coords(self):
+        
         filenames = os.listdir(self.path_prefix)
         keys = [f[:-4] for f in filenames]
-        bounding_boxes = pd.DataFrame(index=[keys,CLASSES],cols=['n','xmin','ymin','width','height'])
+        boxes = pd.DataFrame(index=[keys,CLASSES],cols=['n','xmin','ymin','width','height'])
         
         for filename in filenames:
             if filename.lower().endswith('.xml'):
@@ -94,11 +101,11 @@ class XML_preprocessor(object):
                     elif class_name=='air conditioning':
                         class_name=='air conditioner'
 
-                    bounding_boxes.loc[(image_name,class_name),'n']=n
-                    bounding_boxes.loc[(image_name,class_name),'xmin']=xmin
-                    bounding_boxes.loc[(image_name,class_name),'ymin']=ymin
-                    bounding_boxes.loc[(image_name,class_name),'width']=width
-                    bounding_boxes.loc[(image_name,class_name),'height']=height
+                    boxes.loc[(image_name,class_name),'n']=n
+                    boxes.loc[(image_name,class_name),'xmin']=xmin
+                    boxes.loc[(image_name,class_name),'ymin']=ymin
+                    boxes.loc[(image_name,class_name),'width']=width
+                    boxes.loc[(image_name,class_name),'height']=height
                     
         return bounding_boxes
                 

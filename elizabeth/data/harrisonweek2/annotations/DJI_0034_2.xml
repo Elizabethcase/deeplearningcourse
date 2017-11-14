@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Mavic Week 2</folder>
+	<filename>DJI_0034_2.JPG</filename>
+	<path>/Volumes/WD Elements Case/Mavic/Fieldwork pt 2/Harrison/Mavic Week 2/DJI_0034_2.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tarp</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>172</xmin>
+			<ymin>342</ymin>
+			<xmax>316</xmax>
+			<ymax>512</ymax>
+		</bndbox>
+	</object>
+</annotation>

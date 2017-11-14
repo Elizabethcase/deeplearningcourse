@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Mavic Week 2</folder>
+	<filename>DJI_0037_41.JPG</filename>
+	<path>/Volumes/WD Elements Case/Mavic/Fieldwork pt 2/Harrison/Mavic Week 2/DJI_0037_41.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>440</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>129</xmin>
+			<ymin>350</ymin>
+			<xmax>195</xmax>
+			<ymax>413</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>Mapping</folder>
+  <filename>DJI_0008_45</filename>
+  <path>/Users/elizabeth/Pictures/Mavic/Fieldwork pt 2/Harrison/Mapping/DJI_0008_45.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>440</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>pot</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>413</xmin>
+      <ymin>211</ymin>
+      <xmax>450</xmax>
+      <ymax>272</ymax>
+    </bndbox>
+  </object>
+</annotation>

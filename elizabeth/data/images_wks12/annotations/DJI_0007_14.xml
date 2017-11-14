@@ -1,0 +1,26 @@
+<annotation verified="no">
+  <folder>Mapping</folder>
+  <filename>DJI_0007_14</filename>
+  <path>/Users/elizabeth/Pictures/Mavic/Fieldwork pt 2/Harrison/Mapping/DJI_0007_14.JPG</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>512</width>
+    <height>512</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>hose</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>261</xmin>
+      <ymin>319</ymin>
+      <xmax>316</xmax>
+      <ymax>360</ymax>
+    </bndbox>
+  </object>
+</annotation>
