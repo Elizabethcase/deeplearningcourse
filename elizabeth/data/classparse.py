@@ -6,14 +6,17 @@ import os
 from xml.etree import ElementTree
 import pandas as pd
 
-#CLASSES = ["n03991062", "n02802426", "container","water","bird bath", "tire", "wheelbarrow", "bucket", "gutter","vegetation","tree","building","sky""]
+#CLASSES1 = ["n03991062", "n02802426", "container","water","bird bath", "tire", "wheelbarrow", "bucket", "gutter","vegetation","tree","building","sky""]
 
-#CLASSES = ["background","pot","clutter","car","trash","woodpile","air conditioning","table","tire","fence","flower pot","porch","house","kayak","front yard","toy","bench","flower bed","driveway","yard","street","pool","chair","tarp","bird bath","container","back yard","gutter","trash bin","fire pit","air conditioner","umbrella","treehouse","basketball","tent","hose","drain","barbecue","awning","fountain","bucket","ladder","toy"]
+#CLASSES2 = ["background","pot","clutter","car","trash","woodpile","air conditioning","table","tire","fence","flower pot","porch","house","kayak","front yard","toy","bench","flower bed","driveway","yard","street","pool","chair","tarp","bird bath","container","back yard","gutter","trash bin","fire pit","air conditioner","umbrella","treehouse","basketball","tent","hose","drain","barbecue","awning","fountain","bucket","ladder","toy"]
 
-#CLASSES = ["background","pot","clutter","car","trash","table","tire","flower pot","porch","kayak","toy","pool","chair","tarp","bird bath","container","gutter","trash bin","air conditioner","umbrella","basketball","tent","hose","drain","awning","bucket","ladder"]
+#CLASSES3 = ["background","pot","clutter","car","trash","table","tire","flower pot","porch","kayak","toy","pool","chair","tarp","bird bath","container","gutter","trash bin","air conditioner","umbrella","basketball","tent","hose","drain","awning","bucket","ladder"]
 
-CLASSES = ["background","pot","flower pot","car","porch","container","gutter","trash bin","toy"]
+#CLASSES4 = ["background","pot","flower pot","tarp","umbrella","basketball","trash bin","porch","container","gutter","trash bin","toy"]
 
+CLASSES5 = ["background","pot","flower pot","tarp","umbrella","basketball","trash bin","porch","container","gutter","trash bin","toy","kayak","drain","clutter"]
+
+CLASSES = ["background","pot","flower pot","tarp","umbrella","basketball","trash bin","porch","container","gutter","trash bin","toy","kayak","drain","clutter"]
 
 class XML_preprocessor(object):
 
@@ -54,10 +57,10 @@ class XML_preprocessor(object):
                     class_name = object_tree.find('name').text
                     if class_name=='garbage bin':
                         class_name='trash bin'
-                    elif class_name=='flower pot':
-                        class_name=='pot'
-                    elif class_name=='air conditioning':
-                        class_name=='air conditioner'
+                    #elif class_name=='flower pot':
+                    #    class_name=='pot'
+                    #elif class_name=='air conditioning':
+                    #    class_name=='air conditioner'
                     one_hot_class = self._to_one_hot(class_name)
                     one_hot_classes.append(one_hot_class)
                 image_name = root.find('filename').text
@@ -116,8 +119,8 @@ class XML_preprocessor(object):
         if name in CLASSES:
             i = CLASSES.index(name)
             one_hot_vector[i] = 1
-        else:
-            print(name)
+        #else:
+        #    print(name)
         return one_hot_vector
     
 
