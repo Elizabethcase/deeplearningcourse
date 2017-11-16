@@ -1,0 +1,26 @@
+<annotation>
+	<folder>harrison</folder>
+	<filename>DJI_0089_39</filename>
+	<path>/Volumes/WD Elements Case/harrison/DJI_0089_39</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>toy</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>73</xmin>
+			<ymin>3</ymin>
+			<xmax>496</xmax>
+			<ymax>461</ymax>
+		</bndbox>
+	</object>
+</annotation>

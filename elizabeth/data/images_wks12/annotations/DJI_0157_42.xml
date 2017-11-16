@@ -1,0 +1,38 @@
+<annotation>
+	<folder>smithtown</folder>
+	<filename>DJI_0157_42</filename>
+	<path>/Volumes/WD Elements Case/smithtown/DJI_0157_42</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>152</xmin>
+			<ymin>400</ymin>
+			<xmax>191</xmax>
+			<ymax>435</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>no larvae</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>150</xmin>
+			<ymin>398</ymin>
+			<xmax>189</xmax>
+			<ymax>433</ymax>
+		</bndbox>
+	</object>
+</annotation>

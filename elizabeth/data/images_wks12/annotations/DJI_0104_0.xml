@@ -1,0 +1,38 @@
+<annotation>
+	<folder>smithtown</folder>
+	<filename>DJI_0104_0</filename>
+	<path>/Volumes/WD Elements Case/smithtown/DJI_0104_0</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>porch</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>29</xmin>
+			<ymin>7</ymin>
+			<xmax>429</xmax>
+			<ymax>434</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>88</xmin>
+			<ymin>39</ymin>
+			<xmax>159</xmax>
+			<ymax>120</ymax>
+		</bndbox>
+	</object>
+</annotation>

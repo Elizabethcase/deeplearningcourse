@@ -1,0 +1,26 @@
+<annotation>
+	<folder>mamaroneck</folder>
+	<filename>DJI_0209_20</filename>
+	<path>/Volumes/WD Elements Case/mamaroneck/DJI_0209_20</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>flower pot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>238</xmin>
+			<ymin>36</ymin>
+			<xmax>266</xmax>
+			<ymax>67</ymax>
+		</bndbox>
+	</object>
+</annotation>

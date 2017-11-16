@@ -1,0 +1,38 @@
+<annotation>
+	<folder>mamaroneck</folder>
+	<filename>DJI_0247_27</filename>
+	<path>/Volumes/WD Elements Case/mamaroneck/DJI_0247_27</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gutter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>49</xmin>
+			<ymin>298</ymin>
+			<xmax>117</xmax>
+			<ymax>471</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>no larvae</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>47</xmin>
+			<ymin>296</ymin>
+			<xmax>115</xmax>
+			<ymax>469</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>mamaroneck</folder>
+	<filename>DJI_0206_24</filename>
+	<path>/Volumes/WD Elements Case/mamaroneck/DJI_0206_24</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>porch</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>184</xmin>
+			<ymin>205</ymin>
+			<xmax>483</xmax>
+			<ymax>500</ymax>
+		</bndbox>
+	</object>
+</annotation>

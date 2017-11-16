@@ -1,0 +1,26 @@
+<annotation>
+	<folder>smithtown</folder>
+	<filename>DJI_0107_22</filename>
+	<path>/Volumes/WD Elements Case/smithtown/DJI_0107_22</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>air conditioner</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>113</xmin>
+			<ymin>412</ymin>
+			<xmax>195</xmax>
+			<ymax>487</ymax>
+		</bndbox>
+	</object>
+</annotation>

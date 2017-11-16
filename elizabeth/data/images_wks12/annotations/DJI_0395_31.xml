@@ -1,0 +1,38 @@
+<annotation>
+	<folder>smithtown</folder>
+	<filename>DJI_0395_31</filename>
+	<path>/Volumes/WD Elements Case/smithtown/DJI_0395_31</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gutter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>226</xmin>
+			<ymin>327</ymin>
+			<xmax>291</xmax>
+			<ymax>398</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>288</xmin>
+			<ymin>357</ymin>
+			<xmax>356</xmax>
+			<ymax>416</ymax>
+		</bndbox>
+	</object>
+</annotation>

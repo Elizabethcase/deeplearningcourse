@@ -1,0 +1,38 @@
+<annotation>
+	<folder>mamaroneck</folder>
+	<filename>DJI_0247_36</filename>
+	<path>/Volumes/WD Elements Case/mamaroneck/DJI_0247_36</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tarp</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>401</xmin>
+			<ymin>236</ymin>
+			<xmax>476</xmax>
+			<ymax>487</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>container</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>448</xmin>
+			<ymin>442</ymin>
+			<xmax>498</xmax>
+			<ymax>500</ymax>
+		</bndbox>
+	</object>
+</annotation>

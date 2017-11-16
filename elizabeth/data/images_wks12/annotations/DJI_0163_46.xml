@@ -1,0 +1,26 @@
+<annotation>
+	<folder>smithtown</folder>
+	<filename>DJI_0163_46</filename>
+	<path>/Volumes/WD Elements Case/smithtown/DJI_0163_46</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>flower pot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>403</xmin>
+			<ymin>139</ymin>
+			<xmax>448</xmax>
+			<ymax>189</ymax>
+		</bndbox>
+	</object>
+</annotation>

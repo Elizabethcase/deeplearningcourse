@@ -1,0 +1,26 @@
+<annotation>
+	<folder>smithtown</folder>
+	<filename>DJI_0163_6</filename>
+	<path>/Volumes/WD Elements Case/smithtown/DJI_0163_6</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gutter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>374</xmin>
+			<ymin>49</ymin>
+			<xmax>456</xmax>
+			<ymax>83</ymax>
+		</bndbox>
+	</object>
+</annotation>

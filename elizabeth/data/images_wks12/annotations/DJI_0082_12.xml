@@ -1,0 +1,38 @@
+<annotation>
+	<folder>harrison</folder>
+	<filename>DJI_0082_12</filename>
+	<path>/Volumes/WD Elements Case/harrison/DJI_0082_12</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>366</xmin>
+			<ymin>176</ymin>
+			<xmax>415</xmax>
+			<ymax>229</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>no larvae</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>367</xmin>
+			<ymin>177</ymin>
+			<xmax>416</xmax>
+			<ymax>235</ymax>
+		</bndbox>
+	</object>
+</annotation>

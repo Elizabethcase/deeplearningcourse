@@ -1,0 +1,26 @@
+<annotation>
+	<folder>harrison</folder>
+	<filename>DJI_0088_28</filename>
+	<path>/Volumes/WD Elements Case/harrison/DJI_0088_28</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>basketball</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>323</xmin>
+			<ymin>368</ymin>
+			<xmax>499</xmax>
+			<ymax>500</ymax>
+		</bndbox>
+	</object>
+</annotation>

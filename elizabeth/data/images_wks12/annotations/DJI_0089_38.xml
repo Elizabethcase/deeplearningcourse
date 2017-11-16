@@ -1,0 +1,38 @@
+<annotation>
+	<folder>harrison</folder>
+	<filename>DJI_0089_38</filename>
+	<path>/Volumes/WD Elements Case/harrison/DJI_0089_38</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>porch</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>276</xmin>
+			<ymin>1</ymin>
+			<xmax>499</xmax>
+			<ymax>331</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>container</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>411</xmin>
+			<ymin>51</ymin>
+			<xmax>463</xmax>
+			<ymax>92</ymax>
+		</bndbox>
+	</object>
+</annotation>

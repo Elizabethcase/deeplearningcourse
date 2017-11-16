@@ -1,0 +1,26 @@
+<annotation>
+	<folder>mamaroneck</folder>
+	<filename>DJI_0191_2</filename>
+	<path>/Volumes/WD Elements Case/mamaroneck/DJI_0191_2</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>flower pot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>52</xmin>
+			<ymin>5</ymin>
+			<xmax>77</xmax>
+			<ymax>50</ymax>
+		</bndbox>
+	</object>
+</annotation>
