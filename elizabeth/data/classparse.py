@@ -16,7 +16,11 @@ import pandas as pd
 
 CLASSES5 = ["background","pot","flower pot","tarp","umbrella","basketball","trash bin","porch","container","gutter","trash bin","toy","kayak","drain","clutter"]
 
-CLASSES = ["background","pot","flower pot","tarp","umbrella","basketball","trash bin","porch","container","gutter","trash bin","toy","kayak","drain","clutter"]
+CLASSES6 = ["background","pot","flower pot","tarp","umbrella","basketball","trash bin","porch","container","gutter","trash bin","toy","kayak","drain","clutter","car","table","recycling bin","bird bath","larvae","no larvae"]
+
+CLASSES7 = ["background","pot","flower pot","tarp","umbrella","basketball","trash bin","porch","container","gutter","trash bin","trash","toy","kayak","drain","clutter","car","table","recycling bin","bird bath","larvae","no larvae", "air conditioner", "stone feature", "watering can","ladder"]
+
+CLASSES = CLASSES7
 
 class XML_preprocessor(object):
 
@@ -59,15 +63,21 @@ class XML_preprocessor(object):
                         class_name='trash bin'
                     #elif class_name=='flower pot':
                     #    class_name=='pot'
-                    #elif class_name=='air conditioning':
-                    #    class_name=='air conditioner'
+                    elif class_name=='air conditioning':
+                        class_name=='air conditioner'
+                    elif class_name=='flower pt':
+                        class_name=='flower pot'
+                    elif class_name in ["continer","cotnainer"]:
+                        class_name=='container'
+                    elif class_name=="waterin gcan":
+                        class_name=='watering can'
                     one_hot_class = self._to_one_hot(class_name)
                     one_hot_classes.append(one_hot_class)
                 image_name = root.find('filename').text
                 if image_name[-4:] != '.JPG':
                     image_name = image_name + '.JPG'
                 if n == 0:
-                    print(image_name) # print image names with zero bounding boxes for removal
+                    print("don't forget to remove", image_name, "it has zero bounding boxes") # print image names with zero bounding boxes for removal
                 bounding_boxes = np.asarray(bounding_boxes)
                 one_hot_classes = np.asarray(one_hot_classes)
                 image_data = np.hstack((bounding_boxes, one_hot_classes))
